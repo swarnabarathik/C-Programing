@@ -2,9 +2,9 @@
 #include<string.h>
 int main(void)
 {
-	char a[1000];
+	char a[100];
 	int n,i,count=1;
-	scanf("%[^\t\n]s",a);
+	scanf("%s",a);
 	n=strlen(a);
 	for(i=0;i<n;i++)
 	{
@@ -13,5 +13,5 @@ int main(void)
 	}
 	if(count>1)
 	printf("%d",count);
-  return 0;
+  	return 0;
 }
