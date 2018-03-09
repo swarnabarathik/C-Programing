@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(void)
 {
-	int a[100],i,max=0;
+	int a[1000],i,max=0;
 	for(i=0;i<10;i++)
 	scanf("%d",&a[i]);
-	for(i=0;i<10;i++)
+	for(j=0;j<10;j++)
 	{
-		if(a[i]>max)
+		if(a[j]>max)
 		{
-			max=a[i];
+			max=a[j];
 		}
 	}
 	printf("%d",max);
+	return 0;
 }
