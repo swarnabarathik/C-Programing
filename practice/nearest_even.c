@@ -1,7 +1,6 @@
 #include<stdio.h>
-int main(void)
-{
-	int n,temp;
+int main()
+{      int n,temp;
 	scanf("%d",&n);
 	temp=n;
 	n=n%10;
