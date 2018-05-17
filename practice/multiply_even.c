@@ -8,5 +8,4 @@ int main(void)
 	printf("Even");
 	else
 	printf("Odd");
-	return 0;
 }
